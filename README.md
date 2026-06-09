@@ -48,6 +48,6 @@ Uma lista de tarefas é uma ferramenta essencial para organização pessoal, per
 
 ## 🖇️ Links 
 
-Repositório: 
+Repositório: https://github.com/luancarlos13/To-Do-List
 
-Deploy do Projeto:
+Deploy do Projeto: https://luancarlos13.github.io/To-Do-List/
