@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container central */
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Título */
+h1 {
+    color: #84009b;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Área input + botão */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    height: 45px;
+    border: 2px solid #84009b;
+    background-color: #333;
+    color: #eee;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    height: 45px;
+    background-color: #84009b;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #a900c7;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #a900e6;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #4a148c;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Botão remover */
+li span {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .input-area {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
